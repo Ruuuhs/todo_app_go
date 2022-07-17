@@ -1,0 +1,708 @@
+2022/06/29 01:59:02 main.go:15: test
+2022/06/29 23:30:23 main.go:16: test
+2022/06/29 23:32:32 main.go:16: test
+2022/06/29 23:33:24 main.go:16: test
+2022/06/30 00:16:29 user.go:33: table users has no column named created_at
+2022/07/07 23:37:07 user.go:58: near "where": syntax error
+2022/07/08 00:08:53 todo.go:23: table todos has no column named content
+2022/07/08 00:09:16 todo.go:23: table todos has no column named content
+2022/07/16 17:25:56 server.go:3197: http: panic serving [::1]:49386: template: layout.html:1: function "difine" not defined
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x1400021a0b0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x1400021e000}, {0x100641780, 0x1006ac400}, {0x1400013b9d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x1400021e000?}, 0x1400005fa3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x1400021e000?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x1400021e000}, 0x1400009c000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x1006aecd0, 0x1400021e000}, 0x1400009c000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000139360, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:25:56 server.go:3197: http: panic serving [::1]:49387: template: layout.html:1: function "difine" not defined
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x1400021a180})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x1400021e0e0}, {0x100641780, 0x1006ac400}, {0x140001419d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x1400021e0e0?}, 0x14000141a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x1400021e0e0?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x1400021e0e0}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400011d6b0?}, {0x1006aecd0, 0x1400021e0e0}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000139400, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:25:56 server.go:3197: http: panic serving [::1]:49388: template: layout.html:1: function "difine" not defined
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x1400011b110})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x140001920e0}, {0x100641780, 0x1006ac400}, {0x140000639d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x140001920e0?}, 0x14000063a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x140001920e0?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x140001920e0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400011d7d0?}, {0x1006aecd0, 0x140001920e0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140001394a0, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:25:57 server.go:3197: http: panic serving [::1]:49393: template: layout.html:1: function "difine" not defined
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x14000012100})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x1400028e000}, {0x100641780, 0x1006ac400}, {0x140000639d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x1400028e000?}, 0x14000063a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x1400028e000?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x1400028e000}, 0x14000188300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400011db90?}, {0x1006aecd0, 0x1400028e000}, 0x14000188300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400007e000, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:25:57 server.go:3197: http: panic serving [::1]:49394: template: layout.html:1: function "difine" not defined
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x140000121d0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x1400028e0e0}, {0x100641780, 0x1006ac400}, {0x140000649d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x1400028e0e0?}, 0x14000064a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x1400028e0e0?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x1400028e0e0}, 0x14000282000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400007c0f0?}, {0x1006aecd0, 0x1400028e0e0}, 0x14000282000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400007e0a0, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:25:57 server.go:3197: http: panic serving [::1]:49395: template: layout.html:1: function "difine" not defined
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100651140, 0x140000122a0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1006aecd0?, 0x1400028e1c0}, {0x100641780, 0x1006ac400}, {0x1400005f9d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1006aecd0?, 0x1400028e1c0?}, 0x1400005fa3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1006aecd0?, 0x1400028e1c0?}, 0x100175a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1006aecd0, 0x1400028e1c0}, 0x1400027a000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x140002067e0?}, {0x1006aecd0, 0x1400028e1c0}, 0x1400027a000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000278000, {0x1006aef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:08 server.go:3197: http: panic serving [::1]:49442: template: layout.html:1: function "difine" not defined
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x140000980c0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x140000b2000}, {0x102651780, 0x1026bc400}, {0x1400013b9d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x140000b2000?}, 0x1400005fa3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x140000b2000?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x140000b2000}, 0x1400009c000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x1026becd0, 0x140000b2000}, 0x1400009c000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000139360, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:08 server.go:3197: http: panic serving [::1]:49443: template: layout.html:1: function "difine" not defined
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x14000098190})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x140000b20e0}, {0x102651780, 0x1026bc400}, {0x140001419d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x140000b20e0?}, 0x14000141a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x140000b20e0?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x140000b20e0}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400011d6b0?}, {0x1026becd0, 0x140000b20e0}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000139400, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:08 server.go:3197: http: panic serving [::1]:49444: template: layout.html:1: function "difine" not defined
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x1400011b110})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x140001920e0}, {0x102651780, 0x1026bc400}, {0x140000639d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x140001920e0?}, 0x14000063a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x140001920e0?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x140001920e0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400011d7d0?}, {0x1026becd0, 0x140001920e0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140001394a0, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:13 server.go:3197: http: panic serving [::1]:49465: template: layout.html:1: function "difine" not defined
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x1400011b1e0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x140001921c0}, {0x102651780, 0x1026bc400}, {0x140002089d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x140001921c0?}, 0x14000208a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x140001921c0?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x140001921c0}, 0x14000220100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400020e180?}, {0x1026becd0, 0x140001921c0}, 0x14000220100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000212000, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:13 server.go:3197: http: panic serving [::1]:49466: template: layout.html:1: function "difine" not defined
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x1400011b2b0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x140001922a0}, {0x102651780, 0x1026bc400}, {0x140002079d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x140001922a0?}, 0x14000207a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x140001922a0?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x140001922a0}, 0x14000220000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400020e0f0?}, {0x1026becd0, 0x140001922a0}, 0x14000220000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140002120a0, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:26:13 server.go:3197: http: panic serving [::1]:49467: template: layout.html:1: function "difine" not defined
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x102661140, 0x1400021c0e0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x1026becd0?, 0x1400023a000}, {0x102651780, 0x1026bc400}, {0x140001a59d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x1026becd0?, 0x1400023a000?}, 0x14000209a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x1026becd0?, 0x1400023a000?}, 0x102185a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1026becd0, 0x1400023a000}, 0x14000220300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400020e270?}, {0x1026becd0, 0x1400023a000}, 0x14000220300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x14000212140, {0x1026bef88, 0x1400011d560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:31:09 server.go:3197: http: panic serving [::1]:50659: template: top.html:1: function "difine" not defined
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1005d5140, 0x14000099160})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100632cd0?, 0x140001920e0}, {0x1005c5780, 0x100630400}, {0x140000b99d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x100632cd0?, 0x140001920e0?}, 0x140000b9a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100632cd0?, 0x140001920e0?}, 0x1000f9a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100632cd0, 0x140001920e0}, 0x1400021a000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000206030?}, {0x100632cd0, 0x140001920e0}, 0x1400021a000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140000b7360, {0x100632f88, 0x1400009b560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:31:09 server.go:3197: http: panic serving [::1]:50660: template: top.html:1: function "difine" not defined
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1005d5140, 0x1400020a100})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100632cd0?, 0x1400022e000}, {0x1005c5780, 0x100630400}, {0x140000bb9d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x100632cd0?, 0x1400022e000?}, 0x14000063a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100632cd0?, 0x1400022e000?}, 0x1000f9a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100632cd0, 0x1400022e000}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400009b6b0?}, {0x100632cd0, 0x1400022e000}, 0x14000188100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140000b7400, {0x100632f88, 0x1400009b560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 17:31:09 server.go:3197: http: panic serving [::1]:50661: template: top.html:1: function "difine" not defined
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1005d5140, 0x140000992a0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100632cd0?, 0x140001921c0}, {0x1005c5780, 0x100630400}, {0x140001169d8?, 0x2, 0x800?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:16 +0xd0
+todo_app/app/controllers.top({0x100632cd0?, 0x140001921c0?}, 0x14000116a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:8 +0x74
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100632cd0?, 0x140001921c0?}, 0x1000f9a00?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100632cd0, 0x140001921c0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400009bc80?}, {0x100632cd0, 0x140001921c0}, 0x14000188200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140000b74a0, {0x100632f88, 0x1400009b560})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/16 18:39:09 user.go:106: 
+2022/07/16 18:39:09 main.go:22: 
+2022/07/16 18:39:37 user.go:106: table sessions has no column named created_at
+2022/07/16 18:39:37 main.go:22: 
+2022/07/16 18:41:01 user.go:106: table sessions has no column named created_at
+2022/07/16 18:41:01 main.go:22: 
+2022/07/16 18:48:15 user.go:106: table sessions has no column named created_at
+2022/07/16 18:48:15 main.go:22: 
+2022/07/16 18:50:57 user.go:106: table sessions has no column named created_at
+2022/07/16 18:50:57 main.go:22: 
+2022/07/17 09:41:06 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:42:17 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:42:27 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:42:28 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:42:34 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:44:27 route_main.go:24: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:44:35 route_main.go:25: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:45:11 route_main.go:27: sql: expected 4 destination arguments in Scan, not 5
+2022/07/17 09:51:43 server.go:3197: http: panic serving [::1]:60210: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x140002d2510})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x14000166380}, {0x0, 0x0}, {0x140000b59c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x14000166380}, 0x140000b5a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x14000166380?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x14000166380}, 0x14000158700)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400009a030?}, {0x105393d10, 0x14000166380}, 0x14000158700)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b4a0, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:43 server.go:3197: http: panic serving [::1]:60212: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 8 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x14000180d50})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x140001a22a0}, {0x0, 0x0}, {0x140001d39c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x140001a22a0}, 0x140001d3a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x140001a22a0?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x140001a22a0}, 0x14000328000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400010b830?}, {0x105393d10, 0x140001a22a0}, 0x14000328000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b5e0, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:43 server.go:3197: http: panic serving [::1]:60213: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x140001783f0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x14000166460}, {0x0, 0x0}, {0x140001d59c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x14000166460}, 0x140001d5a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x14000166460?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x14000166460}, 0x14000182400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000180750?}, {0x105393d10, 0x14000166460}, 0x14000182400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140001da000, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:43 server.go:3197: http: panic serving [::1]:60211: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x140002d2a20})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x140000fc2a0}, {0x0, 0x0}, {0x140001239c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x140000fc2a0}, 0x14000123a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x140000fc2a0?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x140000fc2a0}, 0x140000a8500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400010b6e0?}, {0x105393d10, 0x140000fc2a0}, 0x140000a8500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b540, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:43 server.go:3197: http: panic serving [::1]:60234: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x14000314630})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x14000350000}, {0x0, 0x0}, {0x140001cf9c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x14000350000}, 0x14000334a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x14000350000?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x14000350000}, 0x14000328100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x140003140f0?}, {0x105393d10, 0x14000350000}, 0x14000328100)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140003220a0, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:44 server.go:3197: http: panic serving [::1]:60240: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x14000314780})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x14000166540}, {0x0, 0x0}, {0x140001d59c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x14000166540}, 0x14000334a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x14000166540?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x14000166540}, 0x14000328200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000314690?}, {0x105393d10, 0x14000166540}, 0x14000328200)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b720, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:44 server.go:3197: http: panic serving [::1]:60241: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x14000314cc0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x140003500e0}, {0x0, 0x0}, {0x140001d59c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x140003500e0}, 0x14000063a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x140003500e0?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x140003500e0}, 0x14000158800)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000178510?}, {0x105393d10, 0x140003500e0}, 0x14000158800)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b7c0, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:51:44 server.go:3197: http: panic serving [::1]:60242: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x1053480c0, 0x14000178f60})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x105393d10?, 0x14000166620}, {0x0, 0x0}, {0x1400043d9c8?, 0x3, 0x0?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x105393d10, 0x14000166620}, 0x14000334a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:37 +0xbc
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x105393d10?, 0x14000166620?}, 0x104e53b50?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x105393d10, 0x14000166620}, 0x14000158900)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000178a20?}, {0x105393d10, 0x14000166620}, 0x14000158900)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b860, {0x105393fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:57 server.go:3197: http: panic serving [::1]:60538: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x14000394570})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140003c0000}, {0x0, 0x0}, {0x140001d99c8?, 0x3, 0x140001d9a48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140003c0000}, 0x140001d9a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140003c0000?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140003c0000}, 0x1400031a500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400018e030?}, {0x100ec3d10, 0x140003c0000}, 0x1400031a500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b360, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:57 server.go:3197: http: panic serving [::1]:60541: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 8 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x14000394ab0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140003c00e0}, {0x0, 0x0}, {0x1400017b9c8?, 0x3, 0x1400017ba48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140003c00e0}, 0x1400017ba3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140003c00e0?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140003c00e0}, 0x140003a8000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400010b860?}, {0x100ec3d10, 0x140003c00e0}, 0x140003a8000)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b540, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:57 server.go:3197: http: panic serving [::1]:60540: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x140003107b0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140003322a0}, {0x0, 0x0}, {0x140001779c8?, 0x3, 0x14000177a48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140003322a0}, 0x14000177a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140003322a0?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140003322a0}, 0x14000158400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000310030?}, {0x100ec3d10, 0x140003322a0}, 0x14000158400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b4a0, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:57 server.go:3197: http: panic serving [::1]:60539: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x14000413620})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140000ac2a0}, {0x0, 0x0}, {0x140001239c8?, 0x3, 0x14000123a48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140000ac2a0}, 0x14000123a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140000ac2a0?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140000ac2a0}, 0x14000196300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x1400010b6e0?}, {0x100ec3d10, 0x140000ac2a0}, 0x14000196300)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400011b400, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:57 server.go:3197: http: panic serving [::1]:60546: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x14000413c20})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140000ac380}, {0x0, 0x0}, {0x140001239c8?, 0x3, 0x1400005fa48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140000ac380}, 0x1400005fa3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140000ac380?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140000ac380}, 0x140000b0400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x140004136e0?}, {0x100ec3d10, 0x140000ac380}, 0x140000b0400)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140002cc140, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:58 server.go:3197: http: panic serving [::1]:60551: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x14000310e10})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x14000332380}, {0x0, 0x0}, {0x140001779c8?, 0x3, 0x1400005fa48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x14000332380}, 0x1400005fa3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x14000332380?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x14000332380}, 0x140000b0500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000413c80?}, {0x100ec3d10, 0x14000332380}, 0x140000b0500)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400036a000, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:58 server.go:3197: http: panic serving [::1]:60552: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x1400010bec0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140001661c0}, {0x0, 0x0}, {0x1400017d9c8?, 0x3, 0x14000182a48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140001661c0}, 0x14000182a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140001661c0?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140001661c0}, 0x1400031a600)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x140003108d0?}, {0x100ec3d10, 0x140001661c0}, 0x1400031a600)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x1400036a0a0, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
+2022/07/17 09:52:58 server.go:3197: http: panic serving [::1]:60553: open app/views/templates/pravate_navbar.html: no such file or directory
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1825 +0xb0
+panic({0x100e780c0, 0x1400045a2a0})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/runtime/panic.go:844 +0x258
+html/template.Must(...)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/html/template/template.go:374
+todo_app/app/controllers.generateHTML({0x100ec3d10?, 0x140000ac460}, {0x0, 0x0}, {0x140001239c8?, 0x3, 0x14000060a48?})
+	/Users/uedaryou/go/src/todo_app/app/controllers/server.go:17 +0xd0
+todo_app/app/controllers.todoNew({0x100ec3d10, 0x140000ac460}, 0x14000060a3b?)
+	/Users/uedaryou/go/src/todo_app/app/controllers/route_main.go:40 +0x128
+net/http.HandlerFunc.ServeHTTP(0x72?, {0x100ec3d10?, 0x140000ac460?}, 0x100983a40?)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2084 +0x3c
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x100ec3d10, 0x140000ac460}, 0x140000b0600)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2462 +0x144
+net/http.serverHandler.ServeHTTP({0x14000413d40?}, {0x100ec3d10, 0x140000ac460}, 0x140000b0600)
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:2916 +0x3fc
+net/http.(*conn).serve(0x140002cc1e0, {0x100ec3fc8, 0x1400010b590})
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:1966 +0x56c
+created by net/http.(*Server).Serve
+	/opt/homebrew/Cellar/go/1.18.3/libexec/src/net/http/server.go:3071 +0x450
